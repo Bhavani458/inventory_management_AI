@@ -1,0 +1,201 @@
+product_id,product_name,category,unit_price,vendor_id
+1,Form Meat,Hygiene,19.01,2
+2,Media Soap,Snacks,19.6,11
+3,Keep Bread,Produce,10.18,4
+4,My Bread,Snacks,6.44,1
+5,Party Soap,Bakery,16.54,11
+6,Reason Chips,Produce,15.52,1
+7,Question Milk,Canned Goods,12.57,1
+8,Movie Milk,Meat,4.64,2
+9,Few Beans,Snacks,4.14,16
+10,Threat Bread,Snacks,13.78,2
+11,Teach Milk,Bakery,1.0,14
+12,Camera Meat,Meat,13.93,6
+13,System Meat,Dairy,7.73,1
+14,Down Chips,Bakery,17.98,8
+15,Indeed Milk,Produce,9.36,6
+16,Or Milk,Canned Goods,10.95,6
+17,Discover Bread,Bakery,8.55,12
+18,Certainly Soap,Bakery,18.9,8
+19,Arm Fruit,Meat,5.21,16
+20,Different Fruit,Hygiene,18.6,18
+21,Night Bread,Snacks,12.43,2
+22,Debate Chips,Produce,5.84,1
+23,Often Bread,Beverages,16.2,3
+24,Better Beans,Snacks,12.68,14
+25,Large Juice,Bakery,3.47,1
+26,Own Chips,Dairy,6.71,4
+27,Your Soap,Beverages,11.82,19
+28,Bar Juice,Bakery,16.58,8
+29,System Fruit,Dairy,2.99,17
+30,Animal Soap,Bakery,2.27,16
+31,Herself Bread,Bakery,13.27,19
+32,Relationship Fruit,Canned Goods,10.43,20
+33,Resource Bread,Canned Goods,15.27,18
+34,Value Meat,Produce,5.14,8
+35,Result Beans,Hygiene,17.32,12
+36,We Juice,Hygiene,19.14,13
+37,Return Chips,Beverages,2.25,1
+38,Left Soap,Snacks,2.94,17
+39,Ask Juice,Snacks,10.99,13
+40,Owner Chips,Meat,9.45,14
+41,Drug Juice,Hygiene,2.58,14
+42,Send Juice,Dairy,1.1,13
+43,Wonder Soap,Canned Goods,19.12,11
+44,Television Soap,Bakery,2.06,6
+45,Up Beans,Beverages,10.25,9
+46,Nothing Beans,Dairy,15.51,16
+47,Bit Meat,Produce,12.37,5
+48,Either Juice,Bakery,13.65,17
+49,Group Milk,Snacks,18.35,2
+50,Must Soap,Canned Goods,16.74,9
+51,System Beans,Beverages,17.73,19
+52,Positive Chips,Snacks,17.72,16
+53,Anyone Chips,Canned Goods,17.65,1
+54,Table Chips,Canned Goods,12.11,15
+55,With Bread,Meat,3.75,20
+56,Fight Fruit,Beverages,1.37,8
+57,Decide Milk,Hygiene,11.36,17
+58,Read Fruit,Canned Goods,8.77,10
+59,Pass Juice,Beverages,15.89,18
+60,Question Soap,Produce,15.31,2
+61,Pay Bread,Snacks,5.42,12
+62,Whole Bread,Snacks,6.23,18
+63,Window Fruit,Hygiene,10.51,9
+64,Character Chips,Dairy,5.84,18
+65,Draw Fruit,Dairy,19.24,18
+66,Action Soap,Bakery,7.66,11
+67,Worry Milk,Produce,17.33,11
+68,Sport Fruit,Meat,4.04,20
+69,Either Meat,Produce,6.05,13
+70,Agency Milk,Dairy,2.22,18
+71,Class Milk,Beverages,3.58,13
+72,Trouble Meat,Bakery,10.82,4
+73,Research Juice,Beverages,10.7,11
+74,Both Bread,Canned Goods,4.15,7
+75,Recently Chips,Dairy,7.26,12
+76,Light Meat,Bakery,6.71,19
+77,Doctor Beans,Bakery,18.32,6
+78,General Chips,Bakery,7.34,15
+79,Free Chips,Meat,6.32,18
+80,Us Fruit,Hygiene,17.2,18
+81,Business Juice,Produce,7.45,11
+82,Despite Fruit,Hygiene,2.94,17
+83,Above Chips,Hygiene,1.21,8
+84,Else Fruit,Dairy,16.19,8
+85,Form Soap,Canned Goods,19.78,4
+86,Group Juice,Produce,9.97,5
+87,Experience Juice,Snacks,7.47,10
+88,So Fruit,Canned Goods,5.87,15
+89,Consumer Fruit,Snacks,5.9,2
+90,Agent Chips,Canned Goods,6.29,11
+91,Arrive Bread,Meat,7.15,7
+92,Could Milk,Meat,7.59,3
+93,Develop Bread,Hygiene,6.28,10
+94,Including Juice,Beverages,17.58,17
+95,Federal Meat,Beverages,16.19,8
+96,Expect Juice,Dairy,15.62,4
+97,Area Fruit,Beverages,9.59,3
+98,Main Milk,Hygiene,17.57,4
+99,Garden Soap,Dairy,6.9,11
+100,Lose Beans,Dairy,8.95,3
+101,Resource Soap,Snacks,3.55,8
+102,Then Fruit,Meat,5.46,14
+103,Common Chips,Dairy,11.79,13
+104,Describe Bread,Beverages,3.86,4
+105,Popular Bread,Dairy,14.98,19
+106,Become Beans,Bakery,14.43,4
+107,Believe Bread,Meat,2.31,4
+108,Camera Soap,Dairy,12.55,3
+109,Indicate Fruit,Hygiene,11.83,17
+110,Important Chips,Hygiene,14.4,9
+111,Oil Bread,Bakery,1.97,13
+112,Avoid Beans,Bakery,5.45,14
+113,Course Meat,Dairy,12.45,8
+114,Maintain Meat,Bakery,18.4,19
+115,Star Meat,Hygiene,15.87,13
+116,Provide Beans,Hygiene,15.54,19
+117,Message Soap,Snacks,12.02,2
+118,Subject Bread,Canned Goods,8.85,5
+119,Good Beans,Hygiene,3.89,5
+120,Line Fruit,Produce,4.89,13
+121,Many Chips,Meat,1.4,20
+122,Whom Fruit,Dairy,5.06,17
+123,Where Bread,Meat,10.53,9
+124,Do Fruit,Produce,16.74,14
+125,Sure Juice,Bakery,5.17,10
+126,He Beans,Hygiene,2.48,11
+127,Including Chips,Hygiene,7.03,13
+128,Himself Juice,Snacks,3.46,13
+129,Only Fruit,Hygiene,6.03,3
+130,Million Beans,Produce,3.55,14
+131,Give Bread,Canned Goods,1.61,5
+132,Dog Juice,Canned Goods,12.52,19
+133,Son Soap,Meat,16.43,3
+134,Brother Fruit,Produce,14.59,7
+135,Outside Juice,Canned Goods,8.26,16
+136,Very Soap,Canned Goods,13.53,13
+137,Ago Fruit,Dairy,3.95,1
+138,Yet Chips,Canned Goods,6.38,7
+139,Notice Bread,Beverages,6.23,1
+140,End Meat,Dairy,19.96,1
+141,Former Chips,Beverages,7.24,16
+142,Place Chips,Snacks,16.06,19
+143,Either Bread,Canned Goods,17.86,8
+144,Miss Bread,Hygiene,17.17,19
+145,Institution Soap,Produce,12.18,11
+146,Term Soap,Meat,8.97,9
+147,Take Bread,Dairy,17.23,6
+148,Talk Meat,Produce,4.06,13
+149,Top Milk,Produce,3.96,19
+150,Five Meat,Beverages,14.94,7
+151,Coach Bread,Beverages,15.03,4
+152,Tell Beans,Hygiene,9.86,18
+153,Ability Juice,Hygiene,13.12,15
+154,Poor Soap,Meat,1.73,13
+155,Either Chips,Beverages,17.73,5
+156,Case Meat,Bakery,3.26,8
+157,Once Milk,Meat,3.95,16
+158,Us Juice,Beverages,3.0,4
+159,Defense Chips,Canned Goods,3.74,15
+160,Continue Milk,Bakery,14.21,17
+161,Cover Fruit,Canned Goods,16.96,7
+162,World Fruit,Produce,14.26,15
+163,Instead Beans,Dairy,9.03,15
+164,Place Juice,Snacks,15.44,20
+165,Go Fruit,Snacks,4.07,4
+166,Away Beans,Bakery,15.26,17
+167,Unit Juice,Canned Goods,4.22,14
+168,Far Soap,Dairy,13.93,14
+169,Politics Meat,Meat,13.5,3
+170,Approach Soap,Beverages,12.7,15
+171,Business Soap,Beverages,14.77,5
+172,Look Bread,Beverages,7.14,2
+173,State Chips,Snacks,11.58,9
+174,Bad Meat,Meat,11.47,3
+175,Low Milk,Canned Goods,17.19,14
+176,Scene Beans,Meat,12.01,2
+177,Treatment Soap,Bakery,14.9,7
+178,Story Bread,Snacks,11.07,12
+179,Exactly Chips,Meat,4.08,14
+180,Girl Meat,Dairy,5.72,15
+181,Could Fruit,Canned Goods,10.98,8
+182,Ready Chips,Produce,13.41,17
+183,Happy Juice,Bakery,17.71,17
+184,Sure Beans,Snacks,19.95,3
+185,Development Meat,Dairy,5.77,20
+186,Ready Juice,Hygiene,2.69,14
+187,Idea Meat,Canned Goods,6.31,13
+188,Rise Bread,Meat,12.9,15
+189,Spring Meat,Beverages,7.93,5
+190,Miss Milk,Hygiene,3.49,11
+191,Interview Juice,Hygiene,13.65,5
+192,Summer Fruit,Hygiene,3.63,5
+193,Maybe Juice,Dairy,7.91,2
+194,Foreign Beans,Bakery,2.38,16
+195,Itself Juice,Bakery,11.62,4
+196,Ground Juice,Produce,16.79,1
+197,Pressure Chips,Beverages,2.86,14
+198,Listen Milk,Beverages,12.2,9
+199,Other Juice,Hygiene,16.63,2
+200,Issue Beans,Canned Goods,7.33,7
