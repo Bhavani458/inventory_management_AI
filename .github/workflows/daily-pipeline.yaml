@@ -34,3 +34,16 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python inventory_pipeline.py
+      - name: Send Email Notification
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          curl -X POST https://api.sendgrid.com/v3/mail/send \
+          -H "Authorization: Bearer $SENDGRID_API_KEY" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "personalizations": [{"to": [{"email": "bhavanipriya169@gmail.com"}]}],
+            "from": {"email": "bganji@umass.edu"},
+            "subject": "✅ GitHub Action: Inventory Pipeline Succeeded",
+            "content": [{"type": "text/plain", "value": "The inventory_pipeline.py job completed successfully!"}]
+          }'
