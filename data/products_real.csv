@@ -1,0 +1,41 @@
+product_id,product_name,category,unit_price,vendor_id
+P01,Milk,Dairy,15.13,V10
+P02,Cheddar Cheese,Dairy,8.32,V06
+P03,Yogurt,Dairy,9.19,V15
+P04,Butter,Dairy,7.35,V18
+P05,Whole Wheat Bread,Bakery,12.4,V12
+P06,Bagels,Bakery,2.46,V03
+P07,Croissants,Bakery,3.64,V18
+P08,Muffins,Bakery,9.0,V12
+P09,Bananas,Produce,16.67,V19
+P10,Apples,Produce,8.11,V14
+P11,Carrots,Produce,9.49,V13
+P12,Spinach,Produce,1.54,V08
+P13,Chicken Breast,Meat,12.72,V01
+P14,Ground Beef,Meat,7.46,V09
+P15,Pork Chops,Meat,10.98,V19
+P16,Salmon Fillet,Meat,19.61,V14
+P17,Potato Chips,Snacks,9.4,V10
+P18,Granola Bars,Snacks,12.9,V05
+P19,Popcorn,Snacks,17.17,V17
+P20,Trail Mix,Snacks,15.11,V04
+P21,Toothpaste,Hygiene,12.02,V19
+P22,Hand Soap,Hygiene,16.01,V04
+P23,Shampoo,Hygiene,6.75,V20
+P24,Deodorant,Hygiene,10.49,V14
+P25,Orange Juice,Beverages,15.22,V02
+P26,Soda,Beverages,12.87,V11
+P27,Bottled Water,Beverages,7.86,V19
+P28,Coffee,Beverages,9.15,V08
+P29,Canned Beans,Canned Goods,14.79,V14
+P30,Tomato Sauce,Canned Goods,10.01,V13
+P31,Canned Tuna,Canned Goods,10.19,V13
+P32,Soup,Canned Goods,14.16,V10
+P33,Frozen Pizza,Frozen Foods,18.54,V19
+P34,Ice Cream,Frozen Foods,18.43,V17
+P35,Frozen Vegetables,Frozen Foods,18.55,V20
+P36,Chicken Nuggets,Frozen Foods,15.17,V06
+P37,Laundry Detergent,Cleaning Supplies,16.76,V10
+P38,All-Purpose Cleaner,Cleaning Supplies,13.75,V02
+P39,Sponges,Cleaning Supplies,8.91,V16
+P40,Dish Soap,Cleaning Supplies,9.95,V17
