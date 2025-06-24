@@ -2,3 +2,5 @@ streamlit
 openai
 pandas
 snowflake-connector-python
+python-dotenv
+pyarrow<19.0.0
