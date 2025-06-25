@@ -4,9 +4,9 @@ from datetime import datetime, timedelta
 import random
 import os
 from openai import OpenAI
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv()
 
 user = os.getenv("SNOWFLAKE_USER")
 password = os.getenv("SNOWFLAKE_PASSWORD")
