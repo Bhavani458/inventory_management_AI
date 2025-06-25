@@ -154,7 +154,7 @@ if st.button("Send Email Alert for Expiring Items"):
         body = "🚨 The following items are expiring in the next 7 days:\n\n" + "\n".join(lines)
         subject = "Inventory Expiry Alert"
         message = send_via_sendgrid(subject, body, st.secrets["EMAIL_RECEIVER"])
-        st.success(message) if "✅" in message else st.error(message)
+        st.success(message) if "✅" in message else "Error sending message"
     else:
         st.info("No items expiring in the next 7 days.")
 
