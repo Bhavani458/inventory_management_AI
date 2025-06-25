@@ -33,25 +33,30 @@ Create a user-friendly, automated system that:
 | Scheduling       | GitHub Actions CRON |
 | Secrets Management | GitHub Secrets & `.env` |
 
+---
 ## Features
 **Inventory Dashboard**  
 Visualize all items, categories, quantities, vendors, and expiration dates in an interactive UI.
+
 **AI Reorder Assistant**  
 GPT-4 evaluates current inventory and provides reorder recommendations with product names and quantities.
+
 **Natural Language Querying**  
 Ask inventory questions like:  
 > “Which items are expiring this week?”  
 > “What should I reorder today?”
+
 **Automated Expiry Email Alerts**  
 Low-stock or expiring items are emailed to the store owner via SendGrid.
+
 **Daily Inventory Update Pipeline**  
 A GitHub Actions workflow runs every morning:
 - Simulates new inventory rows
 - Appends them to Snowflake
 - Triggers reorder suggestions
+
 **Secure and Modular**  
 All credentials handled through `.env` or GitHub Secrets.
-
 ---
 
 ## How It Works
