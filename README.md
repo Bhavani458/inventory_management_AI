@@ -1,81 +1,108 @@
 # AI-Powered Inventory Management Assistant
 
-An intelligent inventory management system built to help small convenience store owners automate restocking, track expiring items, and reduce manual effort. This project uses Streamlit for the UI, Snowflake as the data warehouse, OpenAI for AI-driven insights, SendGrid for alerts, and GitHub Actions for automated inventory updates.
+An intelligent inventory management system designed to help small convenience store owners automate restocking, track expiring items, and reduce manual effort.
+
+This project integrates:
+- **Streamlit** for the UI
+- **Snowflake** for data warehousing
+- **OpenAI GPT-4** for AI-driven insights
+- **SendGrid** for email alerts
+- **GitHub Actions** for automated daily updates
+
+---
 
 ## Problem
 
-Many small store owners still rely on manual logging to track inventory and decide when to restock. This often results in missed expirations, stockouts, and wasted time.
+Many small store owners rely on manual logs to track inventory and decide when to restock. This leads to:
+- Missed expiration dates
+- Stockouts and overstocking
+- Time-consuming inventory reviews
+
+---
 
 ## Goal
 
-Create a user-friendly, automated system that:
+Build a user-friendly, automated system that:
 - Tracks inventory in real time
 - Sends alerts for soon-to-expire items
-- Uses AI to recommend what and how much to reorder
+- Uses AI to recommend restock quantities
 - Updates inventory automatically each day
 
+---
 
 ## Features
-**Inventory Dashboard**  
-Visualize all items, categories, quantities, vendors, and expiration dates in an interactive UI.
 
-**AI Reorder Assistant**  
-GPT-4 evaluates current inventory and provides reorder recommendations with product names and quantities.
+### Inventory Dashboard  
+Visualize items, categories, quantities, vendors, and expiration dates in an interactive UI.
 
-**Natural Language Querying**  
-Ask inventory questions like:  
+### AI Reorder Assistant  
+Uses GPT-4 to analyze low-stock products and generate reorder suggestions with quantities and product names.
+
+### Natural Language Querying  
+Ask free-form questions like:  
 > “Which items are expiring this week?”  
 > “What should I reorder today?”
 
-**Automated Expiry Email Alerts**  
-Low-stock or expiring items are emailed to the store owner via SendGrid.
+### Automated Expiry Email Alerts  
+Notifies store owners of expiring inventory via SendGrid email integration.
 
-**Daily Inventory Update Pipeline**  
-A GitHub Actions workflow runs every morning:
-- Simulates new inventory rows
-- Appends them to Snowflake
-- Triggers reorder suggestions
+### Daily Inventory Update Pipeline  
+Automated workflow using GitHub Actions that:
+- Simulates and inserts new inventory data
+- Logs reorder decisions based on GPT recommendations
 
-**Secure and Modular**  
-All credentials handled through `.env` or GitHub Secrets.
+### Secure and Modular  
+All secrets are stored in `.env` (for local) or GitHub Secrets (for production CI/CD).
+
 ---
 
 ## Tech Stack
-| Component        | Technology Used |
-|------------------|-----------------|
-| Frontend UI      | [Streamlit](https://streamlit.io/) |
-| AI Integration   | [OpenAI GPT-4](https://openai.com/) |
-| Backend Storage  | [Snowflake](https://www.snowflake.com/) |
-| Alerts           | [SendGrid Email API](https://sendgrid.com/) |
-| CI/CD            | [GitHub Actions](https://docs.github.com/en/actions) |
-| Scheduling       | GitHub Actions CRON |
-| Secrets Management | GitHub Secrets & `.env` |
 
---- 
+| Component           | Technology Used                        |
+|---------------------|-----------------------------------------|
+| Frontend UI         | [Streamlit](https://streamlit.io/)     |
+| AI Integration      | [OpenAI GPT-4](https://openai.com/)     |
+| Backend Data Store  | [Snowflake](https://www.snowflake.com/) |
+| Alerts              | [SendGrid](https://sendgrid.com/)       |
+| CI/CD Pipeline      | [GitHub Actions](https://github.com/)   |
+| Scheduling          | GitHub Actions (CRON)                   |
+| Secrets Management  | `.env` and GitHub Secrets               |
+
+---
 
 ## How It Works
 
-1. Streamlit app connects to Snowflake and loads inventory data.
-2. OpenAI GPT-4 handles:
-   - Text-to-SQL for user queries
-   - Reorder suggestions based on low-stock logic
-3. SendGrid alerts store owner about upcoming expiry risks
-4. GitHub Actions pipeline (`inventory_pipeline.py`) runs daily and:
-   - Inserts new simulated stock data
-   - logs AI reorder decisions
+1. The Streamlit app queries Snowflake to load inventory data.
+2. Users interact via a dashboard or GPT-powered text interface.
+3. GPT-4 translates natural language to SQL and suggests reorders.
+4. A GitHub Actions pipeline runs daily to:
+   - Insert new simulated inventory entries
+   - Trigger AI reorder checks and log decisions
+5. Email alerts are sent for products nearing expiration.
+
 ---
 
 ## Result
 
-The final system provides a convenient, AI-powered solution that saves store owners time and reduces risk of errors or missed restocks. It transforms manual inventory tracking into an automated, intelligent process.
+A convenient, AI-assisted application that:
+- Saves time and manual effort
+- Reduces product loss due to expiration
+- Helps store owners make better stocking decisions
+- Provides a scalable foundation for real-time inventory intelligence
+
+---
 
 ## Future Improvements
-- Integrate barcode scanner + OCR
-- Add role-based access control (Admin/Viewer)
-- Include real sales data for demand forecasting
-- WhatsApp/SMS alerts via Twilio
+
+- Barcode scanner + OCR integration
+- Role-based access control (Admin/Viewer)
+- Sales-driven demand forecasting
+- SMS/WhatsApp alerts using Twilio
+
+---
 
 ## Author
-Bhavani Priya Ganji  
-[LinkedIn](https://www.linkedin.com/in/bhavani-priya45/) | [GitHub](https://github.com/Bhavani458)
 
+**Bhavani Priya Ganji**  
+[LinkedIn](https://www.linkedin.com/in/bhavani-priya45/)  
+[GitHub](https://github.com/Bhavani458)
