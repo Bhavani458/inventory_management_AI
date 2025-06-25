@@ -14,26 +14,7 @@ Create a user-friendly, automated system that:
 - Uses AI to recommend what and how much to reorder
 - Updates inventory automatically each day
 
-## Features
 
-- **Interactive Streamlit app** with inventory dashboard
-- **GPT-4 integration** to answer natural language questions and provide reorder suggestions
-- **Email alerts via SendGrid** for products nearing expiration
-- **Automated daily inventory updates** using GitHub Actions
-- Secure configuration with environment variables and GitHub Secrets
-
-## Tech Stack
-| Component        | Technology Used |
-|------------------|-----------------|
-| Frontend UI      | [Streamlit](https://streamlit.io/) |
-| AI Integration   | [OpenAI GPT-4](https://openai.com/) |
-| Backend Storage  | [Snowflake](https://www.snowflake.com/) |
-| Alerts           | [SendGrid Email API](https://sendgrid.com/) |
-| CI/CD            | [GitHub Actions](https://docs.github.com/en/actions) |
-| Scheduling       | GitHub Actions CRON |
-| Secrets Management | GitHub Secrets & `.env` |
-
----
 ## Features
 **Inventory Dashboard**  
 Visualize all items, categories, quantities, vendors, and expiration dates in an interactive UI.
@@ -58,6 +39,19 @@ A GitHub Actions workflow runs every morning:
 **Secure and Modular**  
 All credentials handled through `.env` or GitHub Secrets.
 ---
+
+## Tech Stack
+| Component        | Technology Used |
+|------------------|-----------------|
+| Frontend UI      | [Streamlit](https://streamlit.io/) |
+| AI Integration   | [OpenAI GPT-4](https://openai.com/) |
+| Backend Storage  | [Snowflake](https://www.snowflake.com/) |
+| Alerts           | [SendGrid Email API](https://sendgrid.com/) |
+| CI/CD            | [GitHub Actions](https://docs.github.com/en/actions) |
+| Scheduling       | GitHub Actions CRON |
+| Secrets Management | GitHub Secrets & `.env` |
+
+--- 
 
 ## How It Works
 
