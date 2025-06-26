@@ -41,8 +41,8 @@ df_inventory, df_products, df_vendors = load_data()
 st.title("🧠 AI Inventory Management Assistant")
 
 # Inventory overview
-st.header("📦 Inventory Overview")
-st.dataframe(df_inventory)
+#st.header("📦 Inventory Overview")
+#st.dataframe(df_inventory)
 
 # Low stock filter
 st.subheader("🔻 Low Stock Alert")
