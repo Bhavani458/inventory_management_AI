@@ -61,10 +61,14 @@ user_question = st.text_input("Ask a question about your inventory:")
 
 if user_question:
     prompt = f"""
-    Convert the following question into a Snowflake-compatible SQL query using these tables:
+    You are a SQL expert for a Snowflake database with only the following three tables:
     - inventory(inventory_id, product_id, quantity, expiration_date, last_restocked)
     - products(product_id, product_name, category, unit_price, vendor_id)
     - vendors(vendor_id, vendor_name, contact_info)
+
+    Convert the user's question into a valid SQL query using only these tables. 
+    If the question is unrelated to these tables, respond with: 
+    "I'm sorry, I can only answer questions about the inventory, products, or vendors tables."
 
     Question: {user_question}
     SQL:
