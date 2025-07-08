@@ -106,7 +106,7 @@ if low_stock_summary:
     """
 
     reorder_response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4.1-nano",
         messages=[{"role": "user", "content": suggestion_prompt}],
         temperature=0.3
     )
